@@ -123,7 +123,7 @@ Output:
 lst: list
 A list of integers that are listed up to the Integer/nearest prime number if the integer itself is not prime
 
-
+"""
     lst = []
     for p in range(2,n+1):
         for number in range (2,p):
